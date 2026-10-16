@@ -1,0 +1,30 @@
+{
+  "name": "mingtian-repair-studio",
+  "version": "1.2.0",
+  "status": "validated_candidate",
+  "require_human_approval": true,
+  "recursive_deletion": false,
+  "upstream": "https://github.com/ShiXiangYu2/mingtian-repair-studio",
+  "upstream_note": "v1.2.0公开分发副本；依据用户授权的本地实践归纳。移除个人绝对路径与外部私有证据清单；本地已安装版本未改变。远程版本检查仍需显式只读执行，维护脚本不联网。",
+  "sources": [
+    {
+      "available_at_creation": true,
+      "kind": "bundled-session-summary",
+      "path": "sources/episode-02-session-summary.md",
+      "sha256": "967a80154ab9ba81462f02ac40ebd598a32710fc8a6b494ae2b68ee78d7e1e9e"
+    },
+    {
+      "available_at_creation": true,
+      "kind": "bundled-session-summary",
+      "path": "sources/episode-03-session-summary.md",
+      "sha256": "1a191caba6cf311f03e88521f9eed6d0ced8e019eb5dcc0789f5d573b029d849"
+    },
+    {
+      "available_at_creation": true,
+      "kind": "bundled-session-summary",
+      "path": "sources/user-request.md",
+      "sha256": "1536df63d80aa02e2c511fc83f88d3ca8f17c8d25eeaeaf1b66bab8a07fe8f7e"
+    }
+  ],
+  "validation_evidence": "references/validation-v1.2.0.md"
+}

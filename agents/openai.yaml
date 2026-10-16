@@ -1,0 +1,6 @@
+interface:
+  display_name: "明天修理铺"
+  short_description: "从主题剧本到分镜、配音字幕与剪映成片，复用角色场景并控制生成积分"
+  default_prompt: "使用 $mingtian-repair-studio 创作《明天修理铺》下一集，先复用已有角色场景，按本次目标完成分镜表、素材或成片交付。"
+policy:
+  allow_implicit_invocation: true
